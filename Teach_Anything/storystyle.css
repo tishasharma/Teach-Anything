@@ -1,0 +1,218 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #1E1E1E;
+}
+
+header {
+    position: relative;
+    height: auto;
+}
+
+.toplogo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.toplogo img {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.signup-button {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button img {
+    width: 219px;
+    height: 66px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+    max-width: 1532px;
+    top: calc(50% - 50vh+100px);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
+.arrow {
+    position: absolute;
+    width: 108.25px;
+    height: 39px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.text-container {
+    position: absolute;
+    width: 920px;
+    height: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(916px - 300px);
+}
+
+.arrow-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.element-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the images to the end of the container */
+    margin-top: 2250px;
+    /* Add a margin-top value to move the images down */
+}
+
+
+
+.image {
+    width: 150px;
+    height: 150px;
+    margin: 0 80px;
+    /* Add some horizontal margin to separate the images */
+}
+
+.image-layout {
+    display: flex;
+    justify-content: center;
+    /* Center the images horizontally */
+    margin-top: 40px;
+    /* Add a margin-top value to adjust the spacing */
+}
+
+.image-layout .image {
+
+    margin: 0 35px;
+    object-fit: contain;
+    /* Add margin to adjust the spacing between images */
+}
+
+.image1 {
+    width: 172px;
+    height: 30px;
+
+}
+
+.image2 {
+    width: 273px;
+    height: 35px;
+
+}
+
+.image3 {
+    width: 219px;
+    height: 27px;
+
+}
+
+.image4 {
+    width: 224px;
+    height: 33px;
+
+}
+
+.text-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin: 85px;
+}
+
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.5;
+    /* Add this line to increase the spacing between lines */
+    width: 16%;
+    /* Adjust the width as needed */
+    max-width: 600px;
+    /* Add a maximum width to limit the paragraph length */
+}
+
+.join-us-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.join-us-image .image {
+    width: 600px;
+    /* Adjust the width as needed */
+    height: 50px;
+}
+
+.bigsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bigsign img {
+    width: 600px;
+    height: 90px;
+    /* Add any additional styles for the button image */
+}
+
+
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.CTA .image {
+    width: 960px;
+    height: 247px;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1280px;
+    height: 100vh;
+    margin: auto;
+}

@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background: #1E1E1E;
+
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    /* Adjust the percentage value as desired */
+    height: auto;
+    /* Let the height adjust automatically based on the width */
+    max-width: 1532px;
+    /* Set a maximum width to limit the logo size */
+    top: 25px;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust the logo size for smaller screens */
+    .logo {
+        width: 80%;
+        /* Adjust the percentage value as desired */
+        max-width: 100%;
+    }
+}
+
+
+.wrapper {
+    display: flex;
+    /* Add display: flex to center vertically and horizontally */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1280;
+    height: 100vh;
+    margin: auto;
+}
+
+.signuplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 25px;
+    width: 574px;
+    height: 505px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    /* Modify this line to scale and center the layout */
+    transform-origin: top left;
+}
+
+.thirdweb_sign {
+    /* Styles for the thirdweb_sign button */
+    width: 600px;
+    /* Adjust the width as needed */
+    height: 360px;
+    /* Adjust the height as needed */
+    background-image: url(ThirdWeb\ sign-up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 17px;
+    
+}
+
+.signuplay p.or_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+.signuplay input[type="text"],
+.signuplay input[type="password"] {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+
+    /* Styles for the email and password inputs */
+    /* Styles for the email and password inputs */
+    width: 574px;
+    /* Adjust the width as needed */
+    height: 300px;
+    /* Adjust the height as needed */
+    background: black;
+    border: 2px solid lightslategray;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.background_image_button {
+    /* Styles for the button with a background image */
+    width: 300px;
+    height: 300px;
+    background-image: url("Sign-Up_green.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateZ(0);
+
+
+}
