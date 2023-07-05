@@ -1,2 +1,2 @@
 # Teach-Anything
-A Centralised Platform for Decentralised Learning
+A Centralised Platform for Decentralised Learning!
